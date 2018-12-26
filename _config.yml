@@ -11,19 +11,19 @@ github_repo: "https://github.com/anqiaoqiao/anqiaoqiaoblog.github.io" # you code
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "成功不必在我，而功力必不唐捐。"
+sidebar-avatar: /img/about-me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+zhihu_username:     asher-54-91
+github_username:    anqiaoqiao
+#facebook_username:  asher.lau.921
+jianshu_username:   cbf89eb99a0e
+twitter_username:   sikewalo
 
 
 
@@ -99,17 +99,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "wechat",
+        href: "https://picgo.oss-ap-northeast-1.aliyuncs.com/wx_qrcode.jpg?Expires=1545869556&OSSAccessKeyId=TMP.AQE-ZymIf7eFhyxj8wx8IEUL8_xajZEixGzG4AxbPVLzqtzTLKp7vnweqLYzMC4CFQCtI7h5phQUW8lTkACBWRO114nlOgIVALKKRFQkaHb4cdyIbWznnsAzrf8S&Signature=DG%2FzNLIQ0okSCylS%2FK31C%2BnEVys%3D"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "line",
+        href: "https://picgo.oss-ap-northeast-1.aliyuncs.com/img/line_qrcode.jpg?Expires=1545869738&OSSAccessKeyId=TMP.AQE-ZymIf7eFhyxj8wx8IEUL8_xajZEixGzG4AxbPVLzqtzTLKp7vnweqLYzMC4CFQCtI7h5phQUW8lTkACBWRO114nlOgIVALKKRFQkaHb4cdyIbWznnsAzrf8S&Signature=%2Bj77Af3As%2BinNNp%2B2SP0ECXXnXo%3D"
     }
 ]
 
