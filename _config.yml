@@ -100,10 +100,10 @@ service-worker: true
 friends: [
     {
         title: "wechat",
-        href: "https://picgo.oss-ap-northeast-1.aliyuncs.com/wx_qrcode.jpg?Expires=1545869556&OSSAccessKeyId=TMP.AQE-ZymIf7eFhyxj8wx8IEUL8_xajZEixGzG4AxbPVLzqtzTLKp7vnweqLYzMC4CFQCtI7h5phQUW8lTkACBWRO114nlOgIVALKKRFQkaHb4cdyIbWznnsAzrf8S&Signature=DG%2FzNLIQ0okSCylS%2FK31C%2BnEVys%3D"
+        href: "https://picgo.oss-ap-northeast-1.aliyuncs.com/wx_qrcode.jpg?x-oss-process=style/mystyle"
     },{
         title: "line",
-        href: "https://picgo.oss-ap-northeast-1.aliyuncs.com/img/line_qrcode.jpg?Expires=1545869738&OSSAccessKeyId=TMP.AQE-ZymIf7eFhyxj8wx8IEUL8_xajZEixGzG4AxbPVLzqtzTLKp7vnweqLYzMC4CFQCtI7h5phQUW8lTkACBWRO114nlOgIVALKKRFQkaHb4cdyIbWznnsAzrf8S&Signature=%2Bj77Af3As%2BinNNp%2B2SP0ECXXnXo%3D"
+        href: "https://picgo.oss-ap-northeast-1.aliyuncs.com/img/line_qrcode.jpg?x-oss-process=style/mystyle"
     }
 ]
 
