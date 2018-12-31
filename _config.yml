@@ -62,7 +62,7 @@ kramdown:
 # Gitalk
 
 gitalk:
-  enable: true
+  enable: false
   clientID: 05286a005b6e072906dc
   clientSecret: 3220c568c538288a8f54628e95d7d253a2ca471c
   repo: anqiaoqiaoblog.github.io
