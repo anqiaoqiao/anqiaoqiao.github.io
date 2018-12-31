@@ -68,6 +68,8 @@ gitalk:
   ClientSecret: 3220c568c538288a8f54628e95d7d253a2ca471c #创建的Application ClientSecret
   adminUser: anqiaoqiao # 评论初始化账户(GitHub ID)
   owner: anqiaoqiao.github.io
+  admin:
+    - anqiaoqiao.github.io
   distractionFreeMode: true # 是否开启分心自由模式 也就是免打扰
 
 # 统计
