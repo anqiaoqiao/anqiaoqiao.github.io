@@ -1,4 +1,4 @@
-# Site settings
+﻿# Site settings
 title: anqiaoqiao's blog
 SEOTitle: 暗悄悄的博客 | anqiaoqiao's Blog
 header-img: img/post-bg-desk.jpg
@@ -56,7 +56,7 @@ kramdown:
 
 
 # 评论系统
-Disqus（https://disqus.com/）
+# Disqus（https://disqus.com/）
 disqus_username: seikyoriu
 
 # Gitalk
