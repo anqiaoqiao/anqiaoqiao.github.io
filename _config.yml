@@ -56,12 +56,12 @@ kramdown:
 
 
 # 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+Disqus（https://disqus.com/）
+disqus_username: seikyoriu
 
 # Gitalk
 gitalk:
-  enable: true #是否开启
+  enable: false #是否开启
   githubID: anqiaoqiao #你的Github用户名
   repo: anqiaoqiaoblog.github.io #Github仓库名称
   ClientID: 05286a005b6e072906dc #创建的Application ClientID
