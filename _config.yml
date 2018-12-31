@@ -60,14 +60,14 @@ Disqus（https://disqus.com/）
 disqus_username: seikyoriu
 
 # Gitalk
-gitalk:
-  enable: false #是否开启
-  githubID: anqiaoqiao #你的Github用户名
-  repo: anqiaoqiaoblog.github.io #Github仓库名称
-  ClientID: 05286a005b6e072906dc #创建的Application ClientID
-  ClientSecret: 3220c568c538288a8f54628e95d7d253a2ca471c #创建的Application ClientSecret
-  adminUser: anqiaoqiao # 评论初始化账户(GitHub ID)
-  distractionFreeMode: true # 是否开启分心自由模式 也就是免打扰
+# gitalk:
+  #enable: false #是否开启
+  #githubID: anqiaoqiao #你的Github用户名
+  #repo: anqiaoqiaoblog.github.io #Github仓库名称
+  #ClientID: 05286a005b6e072906dc #创建的Application ClientID
+  #ClientSecret: 3220c568c538288a8f54628e95d7d253a2ca471c #创建的Application ClientSecret
+  #adminUser: anqiaoqiao # 评论初始化账户(GitHub ID)
+  #distractionFreeMode: true # 是否开启分心自由模式 也就是免打扰
 
 # 统计
 
