@@ -17,7 +17,7 @@
     <img src="img/koshiro-profile.jpg" alt="koshiro-profile" height="250">
   </div>
   <div class="Profiles-intro">
-    <h1 color="#b088f9">小白 | Koshiro</h1>
+    <h1 color="#b088f9">小白 | Koshiro | こしろ</h1>
     <p>Ryuu的第一只小猫, 曾经陪伴着主人度过在海外留学的岁月。</p>
     <p>
       在那段稍纵即逝的日子里，它更像个朋友，因为我们从各自的身上都学到了东西。
@@ -28,7 +28,7 @@
   </div>
   <div class="Basic-info">
     <hr width="100%">
-    <h3>基本信息 | Basic Information</h3>
+    <h3>基本信息 | Basic Information  | 基本情報</h3>
     <table border="2mm" ;>
       <tr>
         <td>性别:</td>
@@ -44,6 +44,25 @@
       </tr>
     </table>
     <a href="#">医疗记录(准备中)</a>
+  </div>
+  <div class="Biography">
+    <hr>
+    <h3>传记 | Biography | 記事</h3>
+  <div style="overflow: hidden;">
+    <div id="title" style="background-color: #b088f9;" onclick="onTileClick()">
+      <h4>⭐小白的童年时光⭐Click to hide</h4>
+    </div>
+    <div id="content" style="height:150px;background-color: #bedcfa;transition: height 0.2s;">
+    <p>  </p>
+
+    </div>
+    <script type="text/javascript">
+      var content = document.getElementById("content");
+
+      function onTileClick() {
+        content.style.height = content.offsetHeight === 150 ? 0 + 'px' : 150 + 'px';
+      }
+    </script>
   </div>
 
 </body>
