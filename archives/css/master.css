@@ -1,0 +1,36 @@
+body {
+  margin: 10;
+  text-align: left;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+h1 {
+  color: #a685e2;
+}
+
+h3 {
+  color: #a685e2;
+}
+
+.Koshiro-profile {
+  position: absolute;
+  top: 20px;
+}
+
+.Profiles-intro {
+  width: 450px;
+  position: absolute;
+  left: 320px
+}
+
+.Basic-info {
+  position: absolute;
+  top: 280px;
+  width: 100%;
+}
+
+.Biography {
+  position: absolute;
+  top: 460px;
+  width: 100%;
+}
