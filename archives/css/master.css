@@ -35,3 +35,34 @@ h3 {
   top: 460px;
   width: 100%;
 }
+
+.Koshiro-qrcode {
+  position: absolute;
+  top: 295px;
+  left: 400px;
+}
+
+.Ryuu-qrcode {
+  position: absolute;
+  top: 295px;
+  left: 820px;
+}
+
+.Koshiro-emergency {
+  position: absolute;
+  top: 425px;
+  left: 430px;
+}
+
+.Wechat-qrcode-text {
+  position: absolute;
+  top: 425px;
+  left: 842px;
+}
+
+.Emergency-text {
+  position: absolute;
+  top: 280px;
+  left: 555px;
+  color: red;
+}

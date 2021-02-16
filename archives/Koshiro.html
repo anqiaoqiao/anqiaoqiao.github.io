@@ -28,7 +28,7 @@
   </div>
   <div class="Basic-info">
     <hr width="100%">
-    <h3>基本信息 | Basic Information  | 基本情報</h3>
+    <h3>基本信息 | Basic Information | 基本情報</h3>
     <table border="2mm" ;>
       <tr>
         <td>性别:</td>
@@ -43,28 +43,51 @@
         <td>392149000164883</td>
       </tr>
     </table>
+    <a href="#">饮食记录(准备中)</a>
+    <br>
     <a href="#">医疗记录(准备中)</a>
+  </div>
+  <div class="Koshiro-qrcode">
+    <img src="img/koshiro-qrcode.png" alt="koshiro-qrcode" height="150">
+  </div>
+  <div class="Ryuu-qrcode">
+    <img src="img/ryuu-qrcode-wechat.png" alt="ryuu-qrcode-wechat" height="150">
+  </div>
+  <div class="Koshiro-emergency">
+    <p>本页面二维码</p>
+  </div>
+  <div class="Wechat-qrcode-text">
+    <p>主人微信二维码</p>
+  </div>
+  <div class="Emergency-text">
+    <p><strong>如果出现紧急情况，<br>
+        请尝试以下方法联系它的主人:<br>
+        1.扫描右侧微信二维码 <br>
+        2.通过微信号: lsxgenius <br>
+        3.通过电话号码：(+81) 08050515367 <br>
+        4.通过邮箱: <br>
+        ryuuseiku.home@gmail.com
+      </strong></p>
   </div>
   <div class="Biography">
     <hr>
     <h3>传记 | Biography | 記事</h3>
-  <div style="overflow: hidden;">
-    <div id="title" style="background-color: #b088f9;" onclick="onTileClick()">
-      <h4>⭐小白的童年时光⭐Click to hide</h4>
+    <div style="overflow: hidden;">
+      <div id="title" style="background-color: #b088f9;" onclick="onTileClick()">
+        <h4>⭐小白的童年时光⭐Click to hide</h4>
+      </div>
+      <div id="content" style="height:150px;background-color: #bedcfa;transition: height 0.2s;">
+        <p> </p>
+
+      </div>
+      <script type="text/javascript">
+        var content = document.getElementById("content");
+
+        function onTileClick() {
+          content.style.height = content.offsetHeight === 150 ? 0 + 'px' : 150 + 'px';
+        }
+      </script>
     </div>
-    <div id="content" style="height:150px;background-color: #bedcfa;transition: height 0.2s;">
-    <p>  </p>
-
-    </div>
-    <script type="text/javascript">
-      var content = document.getElementById("content");
-
-      function onTileClick() {
-        content.style.height = content.offsetHeight === 150 ? 0 + 'px' : 150 + 'px';
-      }
-
-    </script>
-  </div>
 
 </body>
 
