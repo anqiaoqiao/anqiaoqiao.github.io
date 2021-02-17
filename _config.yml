@@ -80,9 +80,9 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-# Links
+# Friends
 
-links: [
+friends: [
     {
         title: "wechat",
         href: "https://picgo.oss-ap-northeast-1.aliyuncs.com/wx_qrcode.jpg?x-oss-process=style/mystyle"
