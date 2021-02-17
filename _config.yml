@@ -84,10 +84,10 @@ service-worker: true
 
 friends: [
     {
-        title: "wechat",
-        href: "https://picgo.oss-ap-northeast-1.aliyuncs.com/wx_qrcode.jpg?x-oss-process=style/mystyle"
+        title: "Wechat",
+        href: "archives/img/ryuu-qrcode-wechat.png"
     },{
-        title: "line",
+        title: "Line",
         href: "https://picgo.oss-ap-northeast-1.aliyuncs.com/img/line_qrcode.jpg?x-oss-process=style/mystyle"
     }
 ]
