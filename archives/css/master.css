@@ -14,7 +14,7 @@ h3 {
 
 .Koshiro-profile {
   position: absolute;
-  top: 20px;
+  top: 10px;
 }
 
 .Profiles-intro {
@@ -27,19 +27,19 @@ h3 {
 .Basic-info {
   position: absolute;
   top: 260px;
-  width: 100%;
+  width: 1000px;
 }
 
 .Biography {
   position: absolute;
   top: 460px;
-  width: 100%;
+  width: 1000px;
 }
 
 .Koshiro-qrcode {
   position: absolute;
   top: 295px;
-  left: 400px;
+  left: 390px;
 }
 
 .Ryuu-qrcode {
@@ -51,7 +51,7 @@ h3 {
 .Koshiro-emergency {
   position: absolute;
   top: 425px;
-  left: 430px;
+  left: 420px;
 }
 
 .Wechat-qrcode-text {
@@ -65,5 +65,9 @@ h3 {
   position: absolute;
   top: 280px;
   left: 555px;
-  color: red;
+  color: #6155a6;
+}
+
+.Koshiro-childhood-outside {
+  text-align: center;
 }
