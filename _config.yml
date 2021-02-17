@@ -82,7 +82,7 @@ service-worker: true
 
 # Links
 
-friends: [
+links: [
     {
         title: "wechat",
         href: "https://picgo.oss-ap-northeast-1.aliyuncs.com/wx_qrcode.jpg?x-oss-process=style/mystyle"
