@@ -16,7 +16,7 @@ tags:
 
 #### 导言
 
-​		初次接触编程，是大学时代折腾单片机时学习的C语言。而后研究生阶段又因为对机器学习和网页设计感兴趣接触了Python和HTML等语言。虽然如此，还没尝试过制作带GUI界面的程序。这段大部分待在家中，遂尝试利用Python+PyQt +Qt Designer 制作带有GUI界面的程序。
+初次接触编程，是大学时代折腾单片机时学习的C语言。而后研究生阶段又因为对机器学习和网页设计感兴趣接触了Python和HTML等语言。虽然如此，还没尝试过制作带GUI界面的程序。这段大部分待在家中，遂尝试利用Python+PyQt +Qt Designer 制作带有GUI界面的程序。
 
 <hr>
 本次编程环境：win10 + Python 3.9.1 + PyQt5 5.15.2 + pyqt5-tools 5.15.2.3.0.2 + pyinstaller 4.2 + Qt Designer 5.11.1
@@ -32,7 +32,7 @@ tags:
 - 计算比较各副本的经验值收益，分为总体收益和单次收益
 - 计算通过刷某副本从当前等级提升至目标等级所需要消耗的石油数量
 
-在构思完毕之后，利用Python验证算法是否可行。为实现功能，这边自定义了相应的数学计算模块（selflib/azrmath.py），注意在Pycharm中导入自定义模块时代码格式入下
+在构思完毕之后，利用Python验证算法是否可行。为实现功能，这边自定义了相应的数学计算模块（selflib/azrmath.py），注意在Pycharm中导入自定义模块时代码格式如下
 
 ```python
 import selflib.azrmath # selflib为文件夹名，azrmath为自定义模块名
