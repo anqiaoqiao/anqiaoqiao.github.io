@@ -82,25 +82,43 @@ pyrcc5 -o test_rc.py test.qrc
 
 ```python
 import sys # 系统自带的一个模块
+
 from PyQt5.QtWidgets import QApplication, QMainWindow # PyQt5 模块
+
 from ui.ui import Ui_Form # 第二步设计好的模块， Ui_Form是class的名字
+
 import selflib.azrmath as azrmath # 第一步写好的算法模块 <非必须>
 
 class MyMainForm(QMainWindow, Ui_Form):
-    def __init__(self, parent=None): # 这一块用于定义事件触发
+    def __init__(self, parent=None): 
+        
+        # 这一块用于定义事件触发
+        
         super(MyMainForm, self).__init__(parent)
-        self.setupUi(self) # 到此为止加载好了设计的GUI：Ui_Form
+        self.setupUi(self) 
+        
+        # 到此为止加载好了设计的GUI：Ui_Form
+        
         self.leftXP_calc_buttom.clicked.connect(self.xpleft)
+        
         # 上面这段代码定义了事件触发：如果那个叫做'leftXP_calc_buttom'的按键被点击了，
+        
         # 那么则执行以后后续叫做'xpleft'的函数
+    
     # 所以接下来，就定义这个函数
+    
     def xpleft(self):
+        
         # 读入那个叫做'currentLV_input'的输入框里面的字符
+        
         current_lv = self.currentLV_input.text()
+        
         # 在那个叫做'leftxp_output'里输出字符
+        
         self.leftxp_output.setText('Error')
 
 # 下面的代码用于运行程序。
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     myWin = MyMainForm()
@@ -121,8 +139,11 @@ import  os
 if __name__ == '__main__':
     from PyInstaller.__main__ import run
     opts=['main.py','-w','--icon=icon.ico'] 
+    
     # main.py 是源代码文件名
+    
     # icon.ico 是exe程序图标的文件名 这里推荐图标大小128px * 128px
+    
     run(opts)
 ```
 
